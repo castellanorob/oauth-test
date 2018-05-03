@@ -1,9 +1,8 @@
-// keys are stored here
-// add this file to .gitignore
+// keys are stored in .env
 
 module.exports = {
     google: {
-        clientID:'826640861886-inriuunuut0fignabejjcqb5a47qcnve.apps.googleusercontent.com',
-        clientSecret:'vSW_E9O2copov9GyzZmjuxg0',
+        clientID: process.env.GOOGLE_ID,
+        clientSecret: process.env.GOOOGLE_SECRET,
     }
 };
